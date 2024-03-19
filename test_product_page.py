@@ -7,7 +7,7 @@ import time
 class TestUserAddToBasketFromProductPage:
     @pytest.fixture(scope = "function", autouse = True)
     def setup(self, browser):
-        link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
+        link = "http://selenium1py.pythonanywhere.com/"
         email = str(time.time()) + "@fakemail.org"
         password = "pass" + str(time.time())
         page = LoginPage(browser, link)
