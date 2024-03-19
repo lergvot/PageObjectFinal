@@ -17,3 +17,5 @@ pip install -r requirements.txt
 ```bash
 pytest -v -s --tb=line --language=en -m need_review test_product_page.py
 ```
+Additional information:
+__init__.py placed in pages, otherwise my tests did not run, if you have an error, try to transfer __init__.py back to the root directory.
