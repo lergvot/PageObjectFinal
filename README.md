@@ -5,10 +5,15 @@
 - pytest==8.1.1
 - selenium==4.18.1
 
-A browser driver is required in the PATH directory. Chrome, Edge, or Firefox browsers are supported.
+A browser driver is required in the PATH directory. Chrome or Edge browsers are supported.
 
-## Command for running tests
-To run the tests, execute the following command:
+## Instalation
+
+```bash
+pip install -r requirements.txt
+```
+## Run tests
 
 ```bash
 pytest -v -s --tb=line --language=en -m need_review test_product_page.py
+```
