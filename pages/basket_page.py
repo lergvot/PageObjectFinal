@@ -1,6 +1,6 @@
 from .base_page import BasePage
-from pages.locators import BasketPageLocators
-from pages.locators import MainPageLocators
+from .locators import BasketPageLocators
+from .locators import MainPageLocators
 
 class BasketPage(BasePage):
     def __init__(self, *args, **kwargs):
